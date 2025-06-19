@@ -107,8 +107,8 @@ main > h2 {
     max-width: 1300px;
     color: white;
     padding: 7px;
-    padding-top: 10px;
-    font-size: 45px;
+    padding-top: 30px;
+    font-size: 2em;
     margin: 20px;
     margin-top: 0px;
     text-indent: 15px;
@@ -123,6 +123,10 @@ main > p {
     font-size: 25px;
     text-indent: 35px;
     max-width: 1300px;
+}
+
+.subtext {
+    margin-top: 0px;
 }
 
 .link {
