@@ -1,0 +1,13 @@
+h1 {
+    background-color: rgba(137, 43, 226, 0.452);
+    width: 550px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: blueviolet;
+    border-radius: 7px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+main {
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 16px;
+    padding: 20px;
+    width: 1000px;
+    height: 750px;
+}
+
+body {
+    background-color: #2b2b2b;
+    
+}
+
+h1#Receba {
+text-align: center;
+color: #2b2b2b;
+}
+
+h1 {
+    text-align: ce;
+    color: #2b2b2b;
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+h2 {
+    color: #2b2b2b;
+}
+
+h2:hover {
+    text-align: left;
+    color: #dd0000;
+}
+
+p {
+    color: #2b2b2b;
+    text-align: left;
+    text-indent: 30px;
+}
