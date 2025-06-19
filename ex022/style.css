@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div.quadrado {
+    display:inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+#d1 {
+ background-color: skyblue;
+}
+
+#d2 {
+background-image: linear-gradient(to bottom, purple, green);
+}
+
+#d3 {
+background-image: url(imagens/wallpaper001.jpg);
+}
