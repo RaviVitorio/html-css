@@ -104,6 +104,7 @@ main {
 }
 
 main > h2 {
+    max-width: 1300px;
     color: white;
     padding: 7px;
     padding-top: 10px;
