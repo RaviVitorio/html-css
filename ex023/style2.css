@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+table {
+   
+    border: 1px solid black;
+    width: 500px;
+    border-collapse: collapse;
+    height: 100px;
+}
+
+thead, tbody > tr, tfoot {
+    height: 35px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+
+}
+
+tbody > tr > td {
+    padding-left: 10px;
+}
+
+caption {
+    background-color: rgb(205, 132, 253);
+    color: aliceblue;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 0px;
+}
+
+th {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td.num {
+    text-align: center;
+}
+
+}
+
+#t2 {
+    margin-top: 100px;
+}
