@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 table {
+   
     border: 1px solid black;
     width: 500px;
     border-collapse: collapse;
@@ -9,6 +10,12 @@ table {
 
 thead, tbody > tr, tfoot {
     height: 35px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+
 }
 
 tbody > tr > td {
@@ -23,6 +30,7 @@ caption {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
+    border-bottom: 0px;
 }
 
 th {
@@ -37,4 +45,12 @@ td {
 
 td.num {
     text-align: center;
+}
+
+tbody > tr:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+#t2 {
+    margin-top: 100px;
 }

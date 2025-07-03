@@ -10,13 +10,13 @@ div.quadrado {
 }
 
 #d1 {
- background-color: skyblue;
+    background-color: skyblue;
 }
 
 #d2 {
-background-image: linear-gradient(to bottom, purple, green);
+    background-image: linear-gradient(to bottom, purple, green);
 }
 
 #d3 {
-background-image: url(imagens/wallpaper001.jpg);
+    background-image: url(imagens/wallpaper001.jpg);
 }
