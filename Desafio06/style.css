@@ -12,20 +12,22 @@ html, body {
     background-color: black;
 }
 
+body {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+
 main {
     position: relative;
     height: 100vh;
-    background-color: green;
 }
 
 section.iphone {
     background-image: url(pacote-d013/imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid black;
     position: absolute;
-    width: 20vw;
-    height: 65vh;
+    width: 310px;
+    height: 628px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,15 +35,28 @@ section.iphone {
 
 section.iphone > iframe {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 50.4%;
+        left: 50.16%;
         transform: translate(-50%, -50%);
-        width: 14vw;
-        height: 48vh;
+        width: 270px;
+        height: 474px;
         image-resolution: 6000px ;
+        background-size: cover;
 }
 
 iframe > src {
     width: 10vw;
+}
+
+.logo-facebook {
+    height: 5vh;
+    width: 5vw;
+}
+
+.logo-facebook > img {
+    position: absolute;
+    
+    height: 60px;
+    width: 60px;
 }
 
